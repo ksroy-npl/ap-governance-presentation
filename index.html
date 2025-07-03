@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real-Time AI Governance System - Kritanta Sasan Roy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="presentation-container">
+    <nav class="slide-navigation">
+      <button id="prevBtn" class="nav-btn" aria-label="Previous Slide">&#8592;</button>
+      <span id="slideCounter" class="slide-counter">1 / 18</span>
+      <button id="nextBtn" class="nav-btn" aria-label="Next Slide">&#8594;</button>
+    </nav>
+    <div class="slides-container">
+      <!-- 1. Title Slide -->
+      <section class="slide title-slide active">
+        <div class="slide-content title-content">
+          <h1 class="main-title">Real-Time AI Governance System</h1>
+          <p class="subtitle">Transforming Public Safety & Administrative Efficiency through Advanced Computer Vision</p>
+          <div class="tagline">KL University</div>
+          <div class="team-info">
+            <span class="team-lead"><b>Kundan Kumar, Kritanta Sasan Roy</b></span>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Team Introduction
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Team Introduction</h2>
+          <div class="team-grid">
+            <div class="team-card">
+              <h3>Kritanta Sasan Roy</h3>
+              <p>Vice President, CIIE, KL University</p>
+              <ul class="expertise-list">
+                <li>Python, Java, C, Flutter</li>
+                <li>Deep Learning, Computer Vision, NLP</li>
+                <li>Google Analytics, Cisco Networking</li>
+                <li>Startup & Product Development</li>
+              </ul>
+            </div>
+            <div class="expertise-card">
+              <h3>Key Certifications</h3>
+              <ul class="expertise-list">
+                <li>Google Analytics (till Sep 2025)</li>
+                <li>Cisco Networking</li>
+                <li>Accenture UK Developer Simulation</li>
+              </ul>
+              <p>Flagship Project: <b>HawkVance AI</b> – Locally running, screen-aware desktop assistant using OCR, detection models, and NLP.</p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- 3. Problem Statement -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Problem Statement</h2>
+          <div class="problem-grid">
+            <div class="problem-item">
+              <div class="problem-icon">📦</div>
+              <h3>Inventory Counting Errors</h3>
+              <p>Government facilities suffer from <b>40% counting errors</b> in inventory management due to manual processes.</p>
+            </div>
+            <div class="problem-item">
+              <div class="problem-icon">🚗</div>
+              <h3>Poor License Plate Detection</h3>
+              <p>Existing systems perform poorly on Indian vehicles with <b>30% accuracy gaps</b>.</p>
+            </div>
+            <div class="problem-item">
+              <div class="problem-icon">🚨</div>
+              <h3>No Real-Time Monitoring</h3>
+              <p>No system for <b>real-time emergency or security breach detection</b> in government facilities.</p>
+            </div>
+            <div class="problem-item">
+              <div class="problem-icon">🕵️‍♂️</div>
+              <h3>Manual Personnel Tracking</h3>
+              <p>Identification and location tracking of government personnel is slow and manual.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Solution Overview -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Solution Overview</h2>
+          <div class="solution-header">
+            <h2>Four Specialized Tools in Harmony</h2>
+          </div>
+          <div class="tools-grid">
+            <div class="tool-card">
+              <h3>YOLOv8 Gunny Bag Counter</h3>
+              <div class="metric">92.8% Accuracy</div>
+            </div>
+            <div class="tool-card">
+              <h3>Custom Indian License Plate AI</h3>
+              <div class="metric">+30% Accuracy vs. Generic</div>
+            </div>
+            <div class="tool-card">
+              <h3>Real-Time Scene Analysis</h3>
+              <div class="metric">Sub-second Alerts</div>
+            </div>
+            <div class="tool-card">
+              <h3>Role-based Personnel ID</h3>
+              <div class="metric">Automated Reports</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Innovation Highlights -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Innovation Highlights</h2>
+          <div class="innovation-content">
+            <div class="innovation-item">
+              <h3>Tailored for India</h3>
+              <p>All AI models developed from scratch, optimized for Indian government requirements and infrastructure.</p>
+            </div>
+            <div class="innovation-item">
+              <h3>Context Awareness</h3>
+              <p>Understands Indian vehicle formats, government workflows, and local contexts.</p>
+            </div>
+            <div class="innovation-item">
+              <h3>Instantaneous Response</h3>
+              <p>Sub-second analysis and alerting for emergencies and anomalies.</p>
+            </div>
+            <div class="innovation-item">
+              <h3>Privacy by Design</h3>
+              <p>All processing is local, compliant with Indian government data protection standards.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Technology Stack -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Technology Stack</h2>
+          <div class="tech-stack">
+            <div class="tech-category">
+              <h3>AI & Vision</h3>
+              <div class="tech-items">
+                <div class="tech-item">YOLOv8 (Object Detection)</div>
+                <div class="tech-item">Roboflow (Dataset Management)</div>
+                <div class="tech-item">Tesseract OCR</div>
+              </div>
+            </div>
+            <div class="tech-category">
+              <h3>Platform</h3>
+              <div class="tech-items">
+                <div class="tech-item">Python, FastAPI</div>
+                <div class="tech-item">Flutter (Dashboard)</div>
+                <div class="tech-item">Firebase</div>
+              </div>
+            </div>
+            <div class="tech-category">
+              <h3>Analytics & Security</h3>
+              <div class="tech-items">
+                <div class="tech-item">Google Analytics</div>
+                <div class="tech-item">Cisco Networking</div>
+                <div class="tech-item">Local LLM Integration</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Gunny Bag Counter -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Gunny Bag Counter</h2>
+          <div class="tool-detail">
+            <div class="tool-info">
+              <h2>Automated Bag Counting via CCTV</h2>
+              <div class="accuracy-metric">
+                <span class="metric-value">92.8%</span>
+                <span class="metric-label">Accuracy</span>
+              </div>
+              <ul>
+                <li>Live dashboard with inventory counts</li>
+                <li>40% error reduction over manual methods</li>
+                <li>Seamless CCTV integration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. License Plate Detection -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Indian License Plate Detection</h2>
+          <div class="tool-detail">
+            <div class="tool-info">
+              <h2>Optimized for Indian Vehicles</h2>
+              <div class="improvement-metric">
+                <span class="metric-value">+30%</span>
+                <span class="metric-label">Accuracy vs. Generic</span>
+              </div>
+              <ul>
+                <li>Scans entire vehicle for plate extraction</li>
+                <li>Advanced AI for trucks & commercial vehicles</li>
+                <li>Live vehicle entry/exit logs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. Contextual Intelligence -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Contextual Intelligence</h2>
+          <div class="feature-grid">
+            <div class="feature-item">
+              <h4>Scene Analysis</h4>
+              <p>Understands context in real-time to detect anomalies and emergencies.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Automatic Alerts</h4>
+              <p>Instant notifications to authorities for security or emergency events.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Continuous Learning</h4>
+              <p>Self-improving algorithms adapt to new scenarios.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Privacy-First</h4>
+              <p>All analysis is local, with no external API calls.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10. Personnel Identification -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Personnel Identification & Tracking</h2>
+          <div class="feature-grid">
+            <div class="feature-item">
+              <h4>Role-based Identification</h4>
+              <p>Detects personnel based on access level and role.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Location & Timestamping</h4>
+              <p>Accurate logs of personnel movements and attendance.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Automated Reports</h4>
+              <p>Generates attendance and movement reports for admins.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Compliance</h4>
+              <p>Meets government privacy and data protection standards.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 11. Performance Comparisons -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Performance Comparisons</h2>
+          <div class="comparison-dashboard">
+            <div class="comparison-grid">
+              <div class="comparison-card">
+                <h3>Gunny Bag Counting</h3>
+                <div class="metric-comparison">
+                  <div class="metric-item">
+                    <span>Manual: 52% Accuracy</span>
+                    <div class="metric-bar"><div class="bar-fill existing" style="width:52%"></div></div>
+                  </div>
+                  <div class="metric-item">
+                    <span>Our Solution: 92.8% Accuracy</span>
+                    <div class="metric-bar"><div class="bar-fill our-solution" style="width:92.8%"></div></div>
+                  </div>
+                </div>
+              </div>
+              <div class="comparison-card">
+                <h3>License Plate Detection</h3>
+                <div class="metric-comparison">
+                  <div class="metric-item">
+                    <span>Generic: 60% Accuracy</span>
+                    <div class="metric-bar"><div class="bar-fill existing" style="width:60%"></div></div>
+                  </div>
+                  <div class="metric-item">
+                    <span>Our Solution: 90% Accuracy</span>
+                    <div class="metric-bar"><div class="bar-fill our-solution" style="width:90%"></div></div>
+                  </div>
+                </div>
+              </div>
+              <div class="comparison-card">
+                <h3>Cost Savings</h3>
+                <div class="metric-comparison">
+                  <div class="metric-item">
+                    <span>International: ₹5 Cr/yr</span>
+                    <div class="metric-bar"><div class="bar-fill existing" style="width:70%"></div></div>
+                  </div>
+                  <div class="metric-item">
+                    <span>Our Solution: ₹2 Cr/yr</span>
+                    <div class="metric-bar"><div class="bar-fill our-solution" style="width:30%"></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 12. Market Analysis -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Market Analysis</h2>
+          <div class="market-content">
+            <div class="market-size">
+              <div class="market-value">₹12,000 Crores</div>
+              <div>by 2025, growing at 25% CAGR</div>
+            </div>
+            <div class="competitive-advantage">
+              <div class="advantage-grid">
+                <div class="advantage-item">
+                  <h4>Built for India</h4>
+                  <p>Designed for Indian infrastructure and government workflows.</p>
+                </div>
+                <div class="advantage-item">
+                  <h4>Cost Effective</h4>
+                  <p>60% lower cost than international alternatives.</p>
+                </div>
+                <div class="advantage-item">
+                  <h4>Local Support</h4>
+                  <p>Dedicated support and customization for Indian clients.</p>
+                </div>
+                <div class="advantage-item">
+                  <h4>Scalable</h4>
+                  <p>Ready for state-wide and national deployments.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 13. Implementation Roadmap -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Implementation Roadmap</h2>
+          <div class="roadmap">
+            <div class="phase">
+              <div class="phase-header">
+                <h3>Prototype</h3>
+                <span class="timeline">Q2 2025</span>
+              </div>
+              <ul>
+                <li>Hardware & software MVP</li>
+                <li>SIH demo & validation</li>
+              </ul>
+            </div>
+            <div class="phase">
+              <div class="phase-header">
+                <h3>Pilot</h3>
+                <span class="timeline">Q3 2025</span>
+              </div>
+              <ul>
+                <li>Deployment in 2 government facilities</li>
+                <li>Feedback & iteration</li>
+              </ul>
+            </div>
+            <div class="phase">
+              <div class="phase-header">
+                <h3>Expansion</h3>
+                <span class="timeline">Q4 2025</span>
+              </div>
+              <ul>
+                <li>Integration with state-wide CCTV</li>
+                <li>Model updates</li>
+              </ul>
+            </div>
+            <div class="phase">
+              <div class="phase-header">
+                <h3>Full Launch</h3>
+                <span class="timeline">Q1 2026</span>
+              </div>
+              <ul>
+                <li>National rollout</li>
+                <li>Continuous improvement</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14. Impact & Benefits -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Impact & Benefits</h2>
+          <div class="impact-grid">
+            <div class="impact-category">
+              <h3>Operational</h3>
+              <ul>
+                <li>40% reduction in manual errors</li>
+                <li>Automated, real-time reporting</li>
+                <li>Instant alerts for emergencies</li>
+              </ul>
+            </div>
+            <div class="impact-category">
+              <h3>Financial</h3>
+              <ul>
+                <li>60% cost savings vs. global solutions</li>
+                <li>Lower maintenance and support costs</li>
+                <li>ROI within 12 months</li>
+              </ul>
+            </div>
+            <div class="impact-category">
+              <h3>Security</h3>
+              <ul>
+                <li>Proactive threat detection</li>
+                <li>Compliant with Indian privacy laws</li>
+                <li>Local data processing</li>
+              </ul>
+            </div>
+            <div class="impact-category">
+              <h3>Scalability</h3>
+              <ul>
+                <li>Ready for state and national rollouts</li>
+                <li>Modular, upgradable architecture</li>
+                <li>Continuous AI improvement</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 15. Technical Architecture -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Technical Architecture</h2>
+          <div class="architecture-diagram">
+            <div class="architecture-layer">
+              <h3>Input Layer</h3>
+              <div class="layer-components">
+                <div class="component">CCTV Feeds</div>
+                <div class="component">Attendance Devices</div>
+                <div class="component">Vehicle Entry Points</div>
+              </div>
+            </div>
+            <div class="architecture-arrow">&#8595;</div>
+            <div class="architecture-layer">
+              <h3>AI Processing</h3>
+              <div class="layer-components">
+                <div class="component">YOLOv8 Detection</div>
+                <div class="component">OCR (Tesseract)</div>
+                <div class="component">Custom LLM</div>
+              </div>
+            </div>
+            <div class="architecture-arrow">&#8595;</div>
+            <div class="architecture-layer">
+              <h3>Data Layer</h3>
+              <div class="layer-components">
+                <div class="component">Firebase</div>
+                <div class="component">Local Storage</div>
+                <div class="component">Analytics</div>
+              </div>
+            </div>
+            <div class="architecture-arrow">&#8595;</div>
+            <div class="architecture-layer">
+              <h3>Dashboard & Reporting</h3>
+              <div class="layer-components">
+                <div class="component">Flutter App</div>
+                <div class="component">Web Dashboard</div>
+                <div class="component">Automated Reports</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 16. Future Scope -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Future Scope</h2>
+          <div class="future-content">
+            <div class="future-category">
+              <h3>AI Expansion</h3>
+              <ul>
+                <li>Integrate more local LLMs</li>
+                <li>Advanced anomaly detection</li>
+                <li>Voice-based command support</li>
+              </ul>
+            </div>
+            <div class="future-category">
+              <h3>Hardware Integration</h3>
+              <ul>
+                <li>Edge AI devices</li>
+                <li>IoT sensor fusion</li>
+                <li>Mobile deployment</li>
+              </ul>
+            </div>
+            <div class="future-category">
+              <h3>Market Growth</h3>
+              <ul>
+                <li>Expand to private sector</li>
+                <li>International adaptation</li>
+                <li>Continuous product upgrades</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 17. Conclusion -->
+      <section class="slide">
+        <div class="slide-content">
+          <h2 class="slide-title">Conclusion</h2>
+          <div class="conclusion-content">
+            <div class="takeaway-grid">
+              <div class="takeaway-item">
+                <h4>Efficiency</h4>
+                <p>Automates manual processes, reducing errors and costs.</p>
+              </div>
+              <div class="takeaway-item">
+                <h4>Security</h4>
+                <p>Proactive, real-time threat detection and response.</p>
+              </div>
+              <div class="takeaway-item">
+                <h4>Scalability</h4>
+                <p>Modular system, ready for national deployment.</p>
+              </div>
+              <div class="takeaway-item">
+                <h4>Innovation</h4>
+                <p>Built for Indian needs, with continuous AI improvement.</p>
+              </div>
+            </div>
+            <div class="call-to-action">
+              <h2>The future of efficient, secure, and intelligent governance starts today.</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 18. Q&A -->
+      <section class="slide qa-slide">
+        <div class="slide-content qa-content">
+          <div class="qa-icon">❓</div>
+          <h2 class="qa-title">Questions & Discussion</h2>
+          <div class="qa-subtitle">Thank you for your attention.<br><br>
+            <span>Contact: <b>Kritanta Sasan Roy & Kundan Kumar</b> &mdash;KL University</span>
+          </div>
+          <div class="contact-info">
+            <div>Ready to discuss, demo, or collaborate!</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
